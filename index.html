@@ -1,5 +1,57 @@
 <html>
+
+<head>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}
+
+.color {
+            background-color: #eaf2dd;
+        }
+.color2 {
+            background-color: #d7e3bd;
+	}
+.color3 {
+            background-color: #c2d69b;
+	}
+.color4 {
+            background-color: #ceeaff;
+	}
+
+</style>
+
+</head>
+
 <body>
-<p>Dzień Dobry</p>
+
+<table border="1" style="width:11%">
+<tr style="background-color:#ceeaff;color:#000000;">
+<th>1</th> <th>2</th> <th>3</th> <th>4</th> <th style="width:20%">5</th> <th>6</th>
+</tr>
+<tr>
+<th class="color4">2</th> <td>a</td> <td colspan="2" class="color">b, c</td> <td>d</td> <td>e</td>
+</tr>
+<tr>
+<th class="color4">3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td rowspan="2" class="color2">j, o</td>
+</tr>
+<tr>
+<th class="color4">4</th> <td>k</td> <td>l</td> <td>m</td> <td>n</td>
+</tr>
+<tr>
+<th class="color4">5</th> <td colspan="3" rowspan="2" class="color3">p, q, r, u, v, w</td> <td>s</td> <td>t</td> 
+</tr>
+<tr>
+<th class="color4">6</th> <td>y</td> <td>z</td>
+</tr>
+</table>
+
 </body>
+
 </html>
